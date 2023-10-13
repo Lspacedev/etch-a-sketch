@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     border: 3px solid blue;
-    height: 500px;
+    height: 700px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -22,11 +22,7 @@ body {
     flex: 1;
     margin: 0;
     padding: 0;
-
     display: flex;
-
-
-   
 
 }
 
