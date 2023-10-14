@@ -8,14 +8,29 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
+    <h1>Etch-A-Sketch</h1>
+    <div id="setGrid">
+        <div class="gridText">Set Grid</div>
+        <div id="rangeText">
+            <p class="value-one"></p>
+            <p>x</p>
+            <p class="value-two"></p>
+        </div>
+        <div><input type="range" onchange="getNum(this.value)"  id="points" name="points" min="0" max="64"></div>
+    </div>
     <div class="container">
 
     </div>
     <div class="addGrid">
-        <div id="gridNum"></div>
-        <button id="gridAdd" onclick="clearGrid()">Clear Grid</button>
+        <div id="buttons">
+            <button id="blue" onclick="changeColor('blue')">Blue</button>
+            <button id="blue" onclick="changeColor('random')">Random</button>
+            <button id="eraser" onclick="changeColor('erase')">Eraser</button>
+            <button id="reset" onclick="eraseGrid()">Reset</button>
+        </div>
+      
     </div>
-    <input type="range" onchange="getNum(this.value)"  id="points" name="points" min="0" max="64">
+   
     
 </body>
 </html>

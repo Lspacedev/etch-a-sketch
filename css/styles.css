@@ -6,16 +6,50 @@ body {
 
 }
 
-.container {
-    margin: 0;
+h1 {
+    font-size: 48px;
+    text-align: center;
     padding: 0;
-    border: 3px solid blue;
-    height: 700px;
-    width: 700px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#setGrid {
     display: flex;
     flex-direction: column;
- 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gridText{
+    font-size: 28px;
+    padding-top: 20px;
+}
 
+
+
+#rangeText {
+    display: flex;
+    font-size: 18px;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.addGrid {
+    display: flex;
+    justify-content: center;
 }
 
 .row {
@@ -27,6 +61,17 @@ body {
 }
 
 .col {
-    border: 1px solid black;
     flex: 1;
 }
+
+#buttons {
+    margin: 5px;
+}
+
+button {
+    font-size: 18px;
+    width: 120px;
+    padding: 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
